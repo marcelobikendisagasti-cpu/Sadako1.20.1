@@ -3,7 +3,7 @@ loaderVersion="[47,)"
 license="All Rights Reserved"
 [[mods]]
 modId="sadako"
-version="1.0.0"
+version="1.1.1"
 displayName="Sadako"
 authors="Moonlight"
 description='''Independent Sadako mob with a spawn egg and basic animations.'''

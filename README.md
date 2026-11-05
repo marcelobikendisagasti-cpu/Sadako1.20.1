@@ -1,14 +1,5 @@
-# Sadako Forge 1.20.1
-Proyecto fuente experimental (no verificado mediante compilacion ni prueba en juego).
+# Sadako 1.1.0 — Forge 1.20.1
 
-## Compilar en GitHub Actions
-1. Crea un repositorio en GitHub.
-2. Sube el CONTENIDO de este ZIP (no el ZIP mismo) a la raiz del repositorio, incluyendo .github/workflows/build.yml.
-3. Ve a Actions > Compilar Sadako Forge 1.20.1 > Run workflow, o espera al push.
-4. Si el build termina verde, descarga el artifact Sadako-Forge-1.20.1-JAR.
-5. Extrae el ZIP de artifact y coloca el archivo .jar en mods de Forge 1.20.1.
+Modelo y textura originales conservados (PlayerModel). Añadida clase `SadakoAnimatedModel` con postura encorvada, cabeza oscilante, caminata irregular, ataque brusco y extremidades relajadas durante la muerte. `SadakoRenderer` anima la caída hacia delante. El huevo generador propio sigue registrado. Sin GeckoLib, EMF ni MCA.
 
-Comando: /summon sadako:sadako
-Huevo: /give @p sadako:sadako_spawn_egg
-
-Nota: animaciones basicas del modelo jugador; gateo y modelo 3D personalizado aun no estan implementados. No probar primero en tu mundo principal.
+**Estado:** código preparado, compilación y prueba en Minecraft pendientes. Subir el CONTENIDO de este proyecto a la raíz del repositorio GitHub y ejecutar Actions. El JAR resultante se descarga en Artifacts.
