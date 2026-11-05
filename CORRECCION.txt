@@ -1,0 +1,2 @@
+Corregido error de compilacion: SpawnEggItem no acepta RegistryObject; ForgeSpawnEggItem acepta Supplier<EntityType>.
+Proyecto no compilado ni probado en Minecraft.

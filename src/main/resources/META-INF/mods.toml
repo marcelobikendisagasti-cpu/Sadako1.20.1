@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="sadako"
+version="1.0.0"
+displayName="Sadako"
+authors="Moonlight"
+description='''Independent Sadako mob with a spawn egg and basic animations.'''
+[[dependencies.sadako]]
+modId="forge"
+mandatory=true
+versionRange="[47.0.0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.sadako]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
